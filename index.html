@@ -188,7 +188,7 @@
       <div class="card"><span class="ico">🎬</span><h3>Video → text, in bulk</h3><p>Paste one link — or a whole list. YouTube, Shorts, TikTok, 1,800 sites, or your own files. Auto-saved, titled, and searchable with timestamps: "4 matches — at 02:14, 05:37."</p></div>
       <div class="card"><span class="ico">📋</span><h3>Clips tray</h3><p>Your recent dictations in a floating tray. Click to paste at your cursor, or drag a clip into any window.</p></div>
       <div class="card"><span class="ico">📖</span><h3>Custom dictionary</h3><p>Names, jargon, brands — always right. It even learns from your repeated corrections automatically.</p></div>
-      <div class="card"><span class="ico">🤖</span><h3>Bring your own AI</h3><p>Optional. Claude, OpenAI, Groq, Ollama, DeepSeek, Qwen or GLM to format emails and bullet-point notes — different per app. Off by default.</p></div>
+      <div class="card"><span class="ico">🤖</span><h3>AI is optional (and rarely needed)</h3><p>The built-in transcription is excellent on its own — most people never turn AI on. If you want it, plug in Claude, OpenAI, Groq, Ollama, DeepSeek, Qwen or GLM to auto-format emails and notes. Off by default.</p></div>
       <div class="card"><span class="ico">🎨</span><h3>Light, dark or system</h3><p>A theme that matches your taste — or follows Windows automatically.</p></div>
       <div class="card"><span class="ico">🔊</span><h3>Optional audio history</h3><p>Keep private local recordings of your dictations with a size budget and one-click ZIP export. Off by default.</p></div>
       <div class="card"><span class="ico">📊</span><h3>Stats & self-update</h3><p>Words per day and time saved vs typing — stored only on your PC. The app updates itself with one click.</p></div>
@@ -246,7 +246,7 @@
       <tr><td>Timestamped transcript search</td><td class="y">Yes</td><td>No</td><td>No</td></tr>
       <tr><td>Clipboard manager, drag &amp; drop</td><td class="y">Yes</td><td>No</td><td>No</td></tr>
       <tr><td>Per-app tone (Slack casual, Outlook formal)</td><td class="y">Yes</td><td>Yes</td><td>No</td></tr>
-      <tr><td>Bring your own AI (Claude, OpenAI, Groq, Ollama, GLM…)</td><td class="y">Yes</td><td>No</td><td>No</td></tr>
+      <tr><td>Optional bring-your-own AI (not required)</td><td class="y">Yes</td><td>No</td><td>No</td></tr>
       <tr><td>Light / dark / system theme</td><td class="y">Yes</td><td>Yes</td><td>Yes</td></tr>
       <tr><td>Optional local audio history</td><td class="y">Yes</td><td>No</td><td>Partly</td></tr>
       <tr><td>One-click self-update</td><td class="y">Yes</td><td>Yes</td><td>Yes</td></tr>
@@ -293,6 +293,7 @@
   <section id="faq">
     <h2>Questions</h2>
     <p class="lead"></p>
+    <details><summary>Do I need to set up AI or an API key?</summary><p>No. EchoQuill's built-in local transcription (OpenAI Whisper) is excellent on its own — most people never enable AI at all. The optional AI layer only adds smart formatting (turning a spoken email into a laid-out email, or notes into bullets). It's off by default, and plain dictation is often the cleaner result.</p></details>
     <details><summary>Is it really free? What's the catch?</summary><p>Really free, and open source under MIT — you can read every line of code on GitHub. Pro exists for power users who want unlimited video transcription and a bigger clip library; that's the whole business model. No ads, no data selling.</p></details>
     <details><summary>Does my voice go to the cloud?</summary><p>No. Speech recognition runs entirely on your PC with OpenAI's open-source Whisper model. The only network use is the one-time model download — unless you deliberately enable a cloud AI provider with your own key.</p></details>
     <details><summary>What do I need to run it?</summary><p>Windows 10 or 11 and a microphone. Download, run, grant mic access, press Ctrl+Alt+Space, and talk. An NVIDIA GPU makes it faster but isn't required.</p></details>
